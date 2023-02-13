@@ -8,7 +8,7 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
  depositInfo.value = '';
  
  if(isNaN(newDepositAmount)){
-   alert ('please provide a valid number');
+   alert ('Please Provide a Valid Number');
    return;
  }
  // step 3: get the current deposit total 

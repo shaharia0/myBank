@@ -15,6 +15,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
   if(emailValue === 'shaharia@gmail.com' && passwordValue=== 'chowdhury'){
     window.location.href='bank.html';
   }else{
-    alert('provide valid email and password ');
+    alert('Provide Valid Email and Password ');
   }
+
+  emailField.value ='';
+  passwordField.value='';
 })

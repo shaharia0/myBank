@@ -10,7 +10,7 @@ const newWithdrawAmount = parseFloat(newWithdrawAmountString);
  withdrawInfo.value = '';
  
 if(isNaN(newWithdrawAmount)){
-  alert ('please provide a valid number');
+  alert ('Please Provide a Valid Number');
   return;
 }
 
@@ -28,7 +28,7 @@ const previousBalanceTotal = parseFloat(previousBalanceTotalString);
 
 //check the amount validaty 
 if(newWithdrawAmount > previousBalanceTotal){
-  alert ('You donot have enough balance');
+  alert ('You donot have Enough Balance');
   return;
 }
  //calculate total withdraw amount 
